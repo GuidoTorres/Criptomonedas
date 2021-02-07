@@ -1,0 +1,39 @@
+.coin_page {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+  }
+  
+  .coin_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2fffe5;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 400px;
+    height: 450px;
+
+  }
+  
+  .coin_image {
+
+    width: 200px;
+    height: 180px;
+  }
+  
+  .coin_name {
+    color: white;
+
+  }
+  
+  .coin_ticker {
+    color: white;
+  }
+  
+  .coin_current {
+    font-size: 2rem;
+    color: white;
+  }
